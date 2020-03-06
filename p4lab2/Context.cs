@@ -1,11 +1,11 @@
-﻿using Microsoft.Data.Entity;
+﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace p4lab2nz
+namespace p4lab2
 {
     public class Context : DbContext
     {

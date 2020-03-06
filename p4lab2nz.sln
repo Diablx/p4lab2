@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p4lab2nz", "p4lab2nz\p4lab2nz.csproj", "{A4460F3D-C5C3-49DB-8B88-C792A2721B1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p4lab2", "p4lab2\p4lab2.csproj", "{CF0C77C4-885C-4B3E-92F4-4A5FFF51A79E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{A4460F3D-C5C3-49DB-8B88-C792A2721B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4460F3D-C5C3-49DB-8B88-C792A2721B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4460F3D-C5C3-49DB-8B88-C792A2721B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF0C77C4-885C-4B3E-92F4-4A5FFF51A79E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF0C77C4-885C-4B3E-92F4-4A5FFF51A79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF0C77C4-885C-4B3E-92F4-4A5FFF51A79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF0C77C4-885C-4B3E-92F4-4A5FFF51A79E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EE662DB-2DBA-43F2-A761-B8ACB0C63AF5}
 	EndGlobalSection
 EndGlobal

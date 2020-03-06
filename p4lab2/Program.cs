@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace p4lab2nz
+namespace p4lab2
 {
     class Program
     {
@@ -12,7 +8,7 @@ namespace p4lab2nz
         {
             Context ctx = new Context();
             ctx.Database.EnsureCreated();
-            ctx.Zajecias.Add(new Zajecia() { Nazwa = "P4", IloscObecnych = 15, Sala="b316" });
+            ctx.Zajecias.Add(new Zajecia() { Nazwa = "P4", IloscObecnych = 15, Sala = "b316" });
             ctx.SaveChanges();
 
             foreach (var item in ctx.Zajecias)

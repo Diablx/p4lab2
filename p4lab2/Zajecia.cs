@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace p4lab2nz
+namespace p4lab2
 {
     //[Table("Wykłady")]
 
